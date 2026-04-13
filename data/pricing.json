@@ -1,0 +1,27 @@
+{
+   "openai/gpt-4.1": {
+    "input_per_mtok_usd": 2,
+    "output_per_mtok_usd": 8
+  }, 
+  "openai/gpt-4.1-mini": {
+    "input_per_mtok_usd": 0.20,
+    "output_per_mtok_usd": 0.80
+  },
+  "openrouter/meta-llama/llama-3.3-70b-instruct": {
+  "input_per_mtok_usd": 0.13,
+  "output_per_mtok_usd": 0.38
+},
+  "openrouter/qwen/qwen-2.5-72b-instruct": {
+  "input_per_mtok_usd": 0.07,
+  "output_per_mtok_usd": 0.26
+},
+"openrouter/mistralai/mistral-large-2411":{
+   "input_per_mtok_usd": 2,
+  "output_per_mtok_usd": 6
+},
+
+"openrouter/google/gemini-2.0-flash-001":{
+   "input_per_mtok_usd": 0.1,
+  "output_per_mtok_usd": 0.4
+}
+}

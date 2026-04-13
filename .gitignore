@@ -1,0 +1,12 @@
+.env
+runs/
+data/original/*.xlsx
+data/original/original_sentences.csv
+data/anonymized/sentences_anonymized.csv
+data/tensors/mapping_sentences.csv
+data/tensors/run_*/
+prompts/*.json
+prompts/*.txt
+prompts/prompts_index.csv
+data/anonymized/sentences_anonymized.csv
+data/original/original_sentences.csv
