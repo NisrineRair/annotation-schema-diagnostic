@@ -1,12 +1,28 @@
+# Environment
 .env
+
+# Runs (raw LLM responses — large files)
 runs/
-data/original/*.xlsx
-data/original/original_sentences.csv
+
+# Original data (confidential — client documents and real names)
+data/original/
+!data/original/.gitkeep
+!data/original/human_annotation/.gitkeep
+
+# Anonymized sentences (contain sentence text)
 data/anonymized/sentences_anonymized.csv
+data/anonymized/human_annotation_E*.csv
+
+# Tensor mapping with sentence text
 data/tensors/mapping_sentences.csv
+
+# Raw tensor run folders
 data/tensors/run_*/
+
+# Prompts (contain sentence text)
 prompts/*.json
 prompts/*.txt
 prompts/prompts_index.csv
-data/anonymized/sentences_anonymized.csv
-data/original/original_sentences.csv
+
+# Pricing config (internal)
+data/pricing.json
