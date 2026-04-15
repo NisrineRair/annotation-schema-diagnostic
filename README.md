@@ -31,10 +31,6 @@ The annotation tensor and anonymized human annotations are released in this repo
   - `05_prepare_human_annotations.py` — merge expert annotation files.
 - `requirements.txt` — Python dependencies.
 
-## Reproducibility Note
-
-Raw source documents are not released due to client confidentiality. All diagnostic procedures are fully specified and applicable to other datasets.
-
 ## Citation
 
 Citation will be added upon publication.
